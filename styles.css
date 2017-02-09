@@ -7,9 +7,6 @@ section {
 footer a {
   text-decoration: none;
 }
-#about {
-
-}
 .grey-bg-color {
   background-color: #f7f7f9;
 }
@@ -27,42 +24,22 @@ footer a {
   font-weight: 300;
 }
 
-/***********************
-  RAISED BUTTONS
-************************/
-.btn-primary.raised {
-    box-shadow: 0 3px 0 0 #007299;
-}
-.btn-primary.raised:active, .btn-primary.raised.active {
-    background: #3b5998;
-    box-shadow: none;
-    margin-bottom: -3px;
-    margin-top: 3px;
+.section-image {
+  min-height: 320px;
+  width: 100%;
 }
 
-/***********************
-  CUSTON BTN VALUES
-************************/
-
-.btn {
-    padding: 14px 24px;
-    border: 0 none;
-    font-weight: 700;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-}
-.btn:focus, .btn:active:focus, .btn.active:focus {
-    outline: 0 none;
+.composition {
+  background-image: url('/images/composition.jpeg');
+  background-size: cover;
 }
 
-.btn-primary {
-    background: #4080ff;
-    color: #ffffff;
+.orchestra {
+  background-image: url('/images/orchestra.jpeg');
+  background-size: cover;
 }
-.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
-    background: #3d6ad6;
-}
-.btn-primary:active, .btn-primary.active {
-    background: #007299;
-    box-shadow: none;
+
+.piano {
+  background-image: url('/images/piano.jpeg');
+  background-size: cover;
 }
